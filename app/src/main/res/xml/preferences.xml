@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="reproducir_musica"
+        android:title="Reproducir música"
+        android:summary="Permite activar o desactivar la reproducción de música en la aplicación" />
+    <ListPreference
+        android:key="ninja"
+        android:title="Ninja"
+        android:summary="Selecciona el ninja que deseas utilizar en la aplicación"
+        android:entries="@array/pref_list_entries"
+        android:entryValues="@array/pref_list_entry_values"
+        android:defaultValue="ninja01" />
+    <EditTextPreference
+        android:key="enemigos"
+        android:title="Cantidad de enemigos"
+        android:summary="Selecciona la cantidad de enemigos que aparecerán en cada nivel"
+        android:dialogTitle="Cantidad de enemigos"
+        android:defaultValue="10" />
+</PreferenceScreen>
+

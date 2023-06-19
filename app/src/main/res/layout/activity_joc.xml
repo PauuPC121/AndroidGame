@@ -1,0 +1,12 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <com.example.ninja_game_v3.VistaJoc
+        android:id="@+id/VistaJoc"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:focusable="true"
+        android:background="@drawable/fons" />
+</LinearLayout>

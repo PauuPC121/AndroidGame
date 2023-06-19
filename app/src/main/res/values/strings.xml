@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Ninja_Game_v3</string>
+    <string name="sharedPref">sharedPreferences</string>
+    <string name="pref_title">Configuración</string>
+    <string name="pref_checkbox_title">Reproducir música</string>
+    <string name="pref_checkbox_summary">Proeueix</string>
+    <string name="pref_list_title">Título Ninja</string>
+    <string name="pref_list_summary">Escoger Ninja</string>
+    <string-array name="pref_list_entries">
+        <item>Ninja01</item>
+        <item>Ninja02</item>
+        <item>Ninja03</item>
+    </string-array>
+    <string-array name="pref_list_entry_values">
+        <item>ninja01</item>
+        <item>ninja02</item>
+        <item>ninja03</item>
+    </string-array>
+    <string name="pref_edit_text_title">Cantidad de enemigos a seleccionar</string>
+    <string name="pref_edit_text_summary">Introduce la cantidad de enemigos</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="app_name_show">Ninja Game</string>
+
+</resources>
